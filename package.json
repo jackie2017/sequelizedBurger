@@ -1,5 +1,5 @@
 {
-  "name": "sequelize",
+  "name": "sequelizeBurger",
   "version": "1.0.0",
   "description": "2nd tier of burger using sequelize",
   "main": "server.js",
@@ -12,10 +12,9 @@
     "sequelize": "^3.30.4"
   },
   "devDependencies": {
-    "handlebars-helper-css": "^0.1.0
-  },
-  "scripts": {
+    "handlebars-helper-css": "^0.1.0",
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [
     "burger",
